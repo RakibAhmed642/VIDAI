@@ -6,7 +6,6 @@ An AI-driven mobile application that continuously captures images and generates 
 
 ## 🚀 Features
 
-- **User-Provided API Key** – Requires users to enter their **Gemini API key** for image analysis.
 - **Continuous Camera Capture** – The app captures an image **every 5 seconds**.
 - **AI-Powered Image Description** – Sends captured images to **Gemini API** for processing and generates a **short text description**.
 - **Real-Time Display** – The generated description is displayed immediately on the screen.
@@ -32,21 +31,15 @@ An AI-driven mobile application that continuously captures images and generates 
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/your-username/VIDAI.git
-   cd ai-camera-app
+   cd VIDAI
    ```
 
 2. **Install Dependencies**
    ```sh
    npm install  # or yarn install
-   ```
+   ``` 
 
-3. **Provide Your API Key**
-   - Go to `config.js` and enter your **Gemini API Key**.
-   ```js
-   export const API_KEY = "your_gemini_api_key_here";
-   ```
-
-4. **Run the App**
+3. **Run the App**
    ```sh
    npx react-native run-android   # For Android
    npx react-native run-ios       # For iOS
